@@ -39,10 +39,10 @@ body{
 }
 
 .info--img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 5px;
-    margin-top:10px;
+    margin-top:20px;
 }
 
 .info--name{
