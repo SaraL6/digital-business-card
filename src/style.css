@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+    
+ }
+
+body{
+     margin: 40px;
+    font-family: Inter, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    height: 100vh;
+    overflow:hidden;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #23252C;
+    height: 650px;
+    width: 450px;
+}
+
+.sub-container{
+    background-color: #1a1b21;
+    margin: 50px 56px;
+    border-radius: 5px;
+    height: 552px;
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.info{
+    text-align: center;
+    line-height: 7px;
+
+}
+
+.info--img{
+    width: 267px;
+    height: 267px;
+    border-radius:  5px 5px 0px 0px
+}
+
+.info--name{
+    font-size: 26px;
+    font-weight: 700;
+
+    margin-top: 25px;
+}
+.info--job{
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #F3BF99;
+
+}
+.info--website{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.info--btns{
+
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    margin: 15px 20px 10px 20px;
+}
+.info--btns > button {
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    width: 90px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+   
+   
+}
+.info--btns > button > a {
+    text-decoration: none;
+
+}
+.email-btn{
+    background: white;
+
+}
+.linkedin-btn{
+    background: #5093E2;
+    color: white;
+}
+.email-link{
+    background: white;
+    color: black;
+
+}
+.linkedin-link{
+ 
+    color: white;
+}
