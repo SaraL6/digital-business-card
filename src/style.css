@@ -18,7 +18,7 @@ body{
     justify-content: center;
     background-color: #23252C;
     height: auto;
-    width: 450px;
+    width: 500px;
 }
 
 .sub-container {
@@ -26,7 +26,7 @@ body{
     margin: 22px 56px;
     border-radius: 5px;
     height: auto;
-    width: 267px;
+    width: 317px;
     display: flex;
     flex-direction: column;
 }
@@ -39,9 +39,10 @@ body{
 }
 
 .info--img{
-    width: 267px;
-    height: 267px;
-    border-radius:  5px 5px 0px 0px
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top:10px;
 }
 
 .info--name{
@@ -111,11 +112,23 @@ body{
 main{
     text-align: left;
     padding: 0px 30px;
+
 }
 .about--title ,.interests--title {
     font-size: 16px;
 }
 .about--text, .interests--text{
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
+    color: #DCDCDC;
+
+}
+
+footer{
+    height:50px;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #918E9B;
 }
